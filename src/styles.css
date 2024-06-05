@@ -136,3 +136,34 @@ nav > button:hover {
     font-weight: 600;
     font-size: 1.5rem;
 }
+
+/* For about */
+#about {
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    color: #8D3D5B;
+}
+
+#about-container {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    padding: 0 3rem;
+    color: #8D3D5B;
+}
+
+#about-content p {
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+#about-container img {
+    width: 25%;
+    box-shadow: -8px 0 12px gray;
+}
+
+#about-container p:last-child {
+    text-align: right;
+}
